@@ -1,0 +1,86 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-image: url(./imagens/fundo.jpg);
+    background-position: center top;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;  
+    margin: 0;
+    align-items: center;
+    flex-direction: column;
+    display: flex;
+    font-family: Arial, Helvetica, sans-serif;
+   
+}
+
+div#titulo{
+    margin-top: 4.5rem;
+    font-size: 2rem;
+    text-align: center;
+   
+    
+    
+}
+.h1{
+    color: white;
+    font-weight: 700;
+}
+
+.sub    {
+    color: white;
+}
+
+.contador{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.texto{
+    margin: 2rem 3rem;
+    
+    font-size: 8rem;
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgba(250, 238, 238, 0.842);
+    text-shadow: 0 0 10px  whitesmoke;
+    
+}
+.span{
+    color: aliceblue;
+    font-size: 3rem;
+    text-align: center;
+}
+div#dias{
+    text-align: center;
+  }
+  div#horas{
+    text-align: center;
+  }
+  div#minutos{
+    text-align: center;
+  }
+  div#segundos{
+    text-align: center;
+  }
+
+  input#cadastro{
+    padding: 15px;
+    width: 150px;
+    margin: 5px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bolder;
+    font-size: 1rem;
+    background-color: whitesmoke;
+    border-radius: 1rem;
+    border-color: whitesmoke;
+   
+    cursor: pointer;
+  }
+
+  input#cadastro:hover{
+    background-color: rgba(73, 73, 73, 0.616);
+  }

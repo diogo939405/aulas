@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Verificador de idade</title>
+    <link rel="stylesheet" href="estiloSemaforo.css">
+    <style>
+        body { font: 12pt Arial; }
+        button { font-size: 12pt; padding: 30px; }
+        p{ background-color: antiquewhite; padding: 5px;}
+    </style>
+</head>
+
+<body>
+    <script src="scriptSemaforo.js"></script>
+    <section>
+       
+        <img src="imagens/desligado.png" id="img" >
+
+    </section>
+    <br>
+    
+    <div id="botoes"> 
+        <input type="button" id="vermelho" value="vermelho" onclick="trocar_Imagem('vermelho')">   
+        <input type="button" id="amarelo" value="amarelo" onclick="trocar_Imagem('amarelo')"> 
+        <input type="button" id="verde" value="verde" onclick="trocar_Imagem('verde')"> 
+        <input type="button" id="automatico" value="automatico" onclick="troca_automatico('')">
+        
+    </div>
+
+
+  
+</body>
+</html>

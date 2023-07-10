@@ -1,0 +1,41 @@
+
+body {
+  background-image: linear-gradient(45deg, cyan, yellow);
+  font-family: Arial, Helvetica, sans-serif;
+}
+div {
+background-color: rgba(0, 0, 0, 0.904);
+  top: 50%;
+  left: 50%;
+  position: absolute;
+  transform: translate(-50%, -50%);
+  padding: 80px;
+  border-radius: 15px;
+}
+
+.titulo{
+  color: whitesmoke;
+  font-size: 2rem;
+  margin-bottom: -7px;
+  
+}
+
+.caixa{
+  padding: 10px;
+  align-items: center;
+  
+}
+.entrar{
+  width: 100%;
+  margin-top: 19px;
+  padding: 11px;
+  border-radius: 19px;
+  background-color: aqua;
+  border: 0;
+  cursor: pointer;
+  font-size: 1rem;
+  color: black;
+}
+.entrar:hover{
+  background-color: aliceblue;
+}

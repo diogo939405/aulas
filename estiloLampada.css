@@ -1,0 +1,26 @@
+body{
+    align-self: auto;
+    font: 12pt Arial;
+}
+
+section{
+    align-items: center;
+       display: flex;
+       flex-direction:column;
+        height: 80vh;
+       justify-content: center
+
+}
+h1{
+    align-items: center;
+    display: flex;
+    flex-direction:column;
+    font-style: italic;
+    font-size: 50px;
+}
+
+button {
+    font-size: 12pt;
+    padding: 10px;
+    width: 100px;
+}
